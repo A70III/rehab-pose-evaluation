@@ -1,0 +1,11 @@
+opencv-python-headless
+numpy
+pandas
+matplotlib
+seaborn
+mediapipe<1.0
+ultralytics
+ai-edge-litert
+protobuf
+tqdm
+requests

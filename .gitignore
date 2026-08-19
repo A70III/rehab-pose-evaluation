@@ -1,0 +1,34 @@
+# Ignore everything by default.
+*
+
+# Keep git rules.
+!.gitignore
+!README.md
+!QUICKSTART.md
+
+# Keep all Python source files.
+!batch_pose_eval.py
+!run_comparison_pipeline.py
+!rebuild_summary.py
+!model_performance_summary.py
+!eda_analysis.py
+!evaluate_all_mac.py
+!requirements.txt
+
+# Always ignore clutter / data / binaries.
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.log
+*.tmp
+*.bak
+*.pt
+*.tflite
+*.task
+clips_mp4/
+clips_mp4_cam1/
+models/
+output*/
+output_test*/
+
